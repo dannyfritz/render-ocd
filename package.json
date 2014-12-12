@@ -1,0 +1,21 @@
+{
+  "name": "render-ocd",
+  "version": "0.0.0",
+  "description": "Render OCD files to PNG.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js | tap-dot"
+  },
+  "keywords": [
+    "OCD",
+    "render"
+  ],
+  "author": "Danny Fritz <dannyfritz@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.3.11",
+    "png": "^3.0.3",
+    "tap-dot": "^0.2.3",
+    "tape": "^3.0.3"
+  }
+}
